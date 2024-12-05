@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="estilos.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Receita</title>
+</head>
+<body>
+   
+    <form action="enviado.html" method="post">
+    <table>
+    <tr><td><img src="img/Designer (3).jpeg" alt=""></td>
+        <td><h1>Inscreva sua Receita</h1></td>
+    </tr>
+    </table> 
+        <b><label for="Nome"> Nome da Receita:</label>
+        <input type="text" name="nome" id="nome">
+       
+       <label > Categoria</label>
+       <select style="width: 99%;" name="Objetivo" required>
+           <option value="">Selecione...</option>
+           <option value="Aperitivo">Aperitivo</option>
+           <option value="Entrada"> Entrada</option>
+           <option value="Prato"> Prato Principal</option>
+           <option value="Sobremesa"> Sobremesa</option>
+           <option value="outros">Outros</option>
+       </select>
+           
+       <label>Ingredientes:</label>
+        <textarea name="Informações"  cols="25" rows="8"
+        maxlength="500"></textarea>
+
+        <label> Modo de preparo</label>
+        <textarea name="Informações"  cols="25" rows="8"
+        maxlength="500" required placeholder=""></textarea>
+        <b></b>
+        <b></b>
+        <label for="Tempo"> Tempo :</label>
+        <input type="time" name="tempo" id="tempo"
+         ><b>
+       
+       <label >Dificuldade</label>
+
+       <input class="emlinha" type="radio" name="Dificuldade"
+        id="facil">
+        <label class="emlinha" for="senamal"> Facíl</label>
+       
+        <input class="emlinha" type="radio" name="Dificuldade"
+       id="medio">
+       <label class="emlinha" for="medio"> Medio</label>
+       
+       <input class="emlinha" type="radio" name="Dificuldade"
+       id="Difícil">
+       <label class="emlinha" for="Difícil">Difícil</label>
+       
+
+       <label for="foto"> Foto da Receita:</label>
+        <input type="file" name="foto" id="foto" required>
+
+        <label for="Nome"> Nome:</label>
+        <input type="text" name="nome" id="nome" 
+        required="required" autofocus placeholder="Completo">
+
+        <label for="Email"> Email:</label>
+        <input type="text" name="Email" id="Email" 
+        required="required" autofocus placeholder="@gmail.com">
+    
+        <label> Comentarios Adicionais</label>
+        <textarea name="Informações"  cols="25" rows="8"
+        maxlength="500" required placeholder=" Escreva aqui o que achar nescessário "></textarea>
+        
+        <input type="submit" name="enviar" value="Enviar" id="Enviar">
+        <p>
+        <button id="enviar" href="enviado.html"> Enviar(Simulação)</button>
+        </p>
+    
+</form>
+
+    
+</body>
+</html>

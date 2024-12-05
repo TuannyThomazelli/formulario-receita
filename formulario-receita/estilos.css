@@ -1,0 +1,65 @@
+h1{
+    text-align: right;
+}
+label, input, select, textarea{
+    display: block ;
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 20px;
+    
+}
+.roboto-thin {
+    font-family: "Roboto", sans-serif;
+  }
+ 
+  form{
+    width: 550px;
+    margin: auto;
+    background: #67a986;
+    padding: 40px;
+    border-radius: 10px;
+    color: rgb(5, 49, 33);
+ }
+ label{
+    padding: 0;
+    margin: 0;
+    width: 100% ;
+    font-size: 18px;
+ }
+ .emlinha{
+    display: inline;
+    width: 10%;
+    font-size: 16px;
+ }
+ input:focus, select:focus, textarea:focus{
+    outline: none;
+    border: solid 1px #1a8249;}
+
+#enviar{
+        width: 100%;
+        border: 2px solid #000000;
+        background-color: #fefcfc;
+        color: #060400;
+        font-weight: bold;
+        cursor: pointer;
+        padding: 15px;
+      }
+#enviar:hover{
+       background-color: #5d9a79;
+       color: #ffffff;
+     transition:all linear 0.5;
+      }
+body{
+    background-color: #67a986;
+    
+}
+img{
+    width: 90%;
+    height: 90%;
+    border-radius: 15%;
+    
+}
+.linha{
+    width: 100%;
+    margin: 0;
+}
